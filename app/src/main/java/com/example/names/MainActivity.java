@@ -23,7 +23,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, SecondAct.class);
                 startActivity(intent);
+
+                //openAvtivity2();
             }
         });
     }
+//    public void openAvtivity2(){
+//        Intent intent = new Intent(this, SecondAct.class);
+//        startActivity(intent);
+//    }
 }
